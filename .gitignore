@@ -1,0 +1,44 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.env
+.venv
+venv/
+ENV/
+build/
+dist/
+*.egg-info/
+
+# ---- IDE / Editor ----
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# ---- OS ----
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS (in case)
+.DS_Store
+
+# ---- Logs ----
+logs/
+*.log
+
+# ---- Environment & Secrets ----
+.env
+*.env
+.env.*
+
+# ---- Flask / Migrations ----
+instance/
+migrations/
+
+# ---- Cache ----
+.cache/
+pip-wheel-metadata/
